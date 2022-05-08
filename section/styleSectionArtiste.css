@@ -1,0 +1,472 @@
+
+.rotation :hover {
+    -webkit-animation: cssAnimation 2.5025s 16 ease;
+    -moz-animation: cssAnimation 2.5025s 16 ease;
+    -o-animation: cssAnimation 2.5025s 16 ease;
+}
+@-webkit-keyframes cssAnimation {
+    from { -webkit-transform: rotate(360deg) scale(0.954) skew(1deg) translate(0px); }
+    to { -webkit-transform: rotate(0deg) scale(0.954) skew(1deg) translate(0px); }
+}
+@-moz-keyframes cssAnimation {
+    from { -moz-transform: rotate(360deg) scale(0.954) skew(1deg) translate(0px); }
+    to { -moz-transform: rotate(0deg) scale(0.954) skew(1deg) translate(0px); }
+}
+@-o-keyframes cssAnimation {
+    from { -o-transform: rotate(360deg) scale(0.954) skew(1deg) translate(0px); }
+    to { -o-transform: rotate(0deg) scale(0.954) skew(1deg) translate(0px); }
+}
+
+.translationMusique {
+    transition:All 0.4s ease;
+    -webkit-transition:All 0.4s ease;
+    -moz-transition:All 0.4s ease;
+    -o-transition:All 0.4s ease;
+    transform: rotate(0deg) scale(0.791) skew(1deg) translate(0px);
+    -webkit-transform: rotate(0deg) scale(0.791) skew(1deg) translate(0px);
+    -moz-transform: rotate(0deg) scale(0.791) skew(1deg) translate(0px);
+    -o-transform: rotate(0deg) scale(0.791) skew(1deg) translate(0px);
+    -ms-transform: rotate(0deg) scale(0.791) skew(1deg) translate(0px);
+}
+.translationMusique:hover{
+    transform: rotate(0deg) scale(0.791) skew(1deg) translate(76px);
+    -webkit-transform: rotate(0deg) scale(0.791) skew(1deg) translate(76px);
+    -moz-transform: rotate(0deg) scale(0.791) skew(1deg) translate(76px);
+    -o-transform: rotate(0deg) scale(0.791) skew(1deg) translate(76px);
+    -ms-transform: rotate(0deg) scale(0.791) skew(1deg) translate(76px);
+}
+
+
+
+
+
+
+
+
+/* ============================================ BLOC GENERAL ==================================== */
+
+p{
+	margin-top: 3px;
+	margin-bottom: 3px;
+}
+h1{
+    font-size: 1.8em;
+    font-family: 'kaushan_scriptregular';
+}
+h2{
+	color: rgb(71,234,43);
+}
+/* ========================================== FIN Bloc General ======================================== */
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+/* ============================================ BLOC SECTION ========================================== */
+
+/* --------- SECTION (position) ---------- */
+section{
+	display: inline-block;
+/*    border: 1px solid green;*/
+	width: 60%;
+	margin-left: 17.5%;
+	margin-top: 10px;
+}
+
+
+/* ---------- ASIDE ------------ */
+aside{
+	float: right;
+	margin-top: 105px; 
+	margin-right: 3.7%;
+	height: 132px;
+	width: 21%;
+}
+.bordureAsideAll{ 
+    border: 2px rgb(249,27,15) ridge;
+    border-radius: 4px; 
+/*    box-shadow: 2px 2px 2px red;*/
+}
+.bordureAsideRock{ 
+    border: 3px rgb(99,225,239) ridge; 
+    box-shadow: 1px 1px 1px rgb(99,225,239); 
+    border-radius: 23px;
+}
+.bordureAsideRap{
+    border: 3px rgb(41,137,254) ridge; 
+    box-shadow: 1px 1px 1px rgb(41,137,254); 
+    border-radius: 23px;
+}
+.bordureAsideReggae{ 
+    border: 3px rgb(245,240,22) ridge; 
+    box-shadow: 1px 1px 1px rgb(245,240,22); 
+    border-radius: 23px;
+}
+.bordureAsidePop{
+    border-radius: 23px;
+}
+
+/* --------- FENETRE PRINCIPALE ---------- */
+article{
+    /* taille des aticles , et l'espace entre eux! */
+    height : 400px; 
+    margin-top: 60px;	
+/*    margin-bottom: 140px;*/
+}
+.positionArticle{
+	position: relative;
+	top: -15px;
+	height : 350px;  
+}
+
+.backgroundArticleAll{ 
+/*    border: 1px solid red;*/
+    background-color: rgb(135,133,114); 
+    background-color: rgba(135,133,114,0.35); 
+}
+.backgroundArticleAll:hover{ 
+    background-color: rgb(135,133,114);
+    background-color: rgba(135,133,114,0.4);
+}
+.backgroundArticleRock, .backgroundArticleRap, .backgroundArticleReggae, .backgroundArticlePop{
+/*    border: 1px solid red;*/
+
+    -moz-border-radius: 13px;
+    -webkit-border-radius: 13px;
+    border-radius: 13px;
+}
+
+/* ========================================= FIN Bloc Section ========================================= */
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+/* ==================================== FENETRE LIENS MUSIQUES ======================================== */
+/* --------- TITRE ARTISTE ---------- */
+.titreFenetreLiensMusiqes{
+    height: 73px;
+	text-align: center;
+	margin: auto;
+	margin-top: 15px;
+    color: rgb(74,120,242); 
+    color: rgba(74,120,242,1); 
+}
+.draggableBox {
+    position: absolute;
+}
+.ajustementPlaceTitre{
+	display: inline-block;
+	position: relative;
+	left: 110px;
+	top: -17px;
+}
+.titreAll, .titreRock, .titreRap{
+    color: rgb(74,120,242); 
+    color: rgba(74,120,242,1);
+}
+.titreReggae{ 
+    color: rgb(245,240,22); 
+    color: rgba(245,240,22,0.9);
+}
+.titrePop{
+    color: rgb(255,255,255); 
+    color: rgba(255,255,255,0.9);
+}
+
+/* --------- FENETRE MUSIQUE (2eme fenetre) ---------- */
+.fenetreLiensMusiques{    
+	margin-left: 13px;
+	padding: 4px;
+	width: 67%;
+	font-size: 1.1em; 
+	font-family: 'chunkfiveroman', Arial, serif;
+}
+
+.bordureEtOmbreFenetreLiensAll{	
+	background-color: rgb(0,0,0); 
+	background-color: rgba(0,0,0,0.7); 
+    border: 2px rgb(249,27,15) ridge; 
+	border-radius: 4px;
+/*	box-shadow: 2px 2px 2px red;  */
+}
+.bordureEtOmbreFenetreLiensAll:hover{ 
+    background-color: rgb(0,0,0); background-color: rgba(0,0,0,0.70);
+}
+.bordureEtOmbreFenetreLiensRock{ 
+    border: 3px rgb(99,225,239) ridge; 
+    box-shadow: 3px 3px 6px rgb(99,225,239); 
+    border-radius: 17px;
+}
+.bordureEtOmbreFenetreLiensRap{ 
+    border: 3px rgb(41,137,254) ridge; 
+    box-shadow: 1px 1px 1px rgb(41,137,254); border-radius: 17px;
+}
+.bordureEtOmbreFenetreLiensReggae{ 
+    border: 3px rgb(245,240,22) ridge;
+    box-shadow: 3px 3px 6px rgb(245,240,22); 
+    border-radius: 17px;
+}
+.bordureEtOmbreFenetreLiensPop{ 
+/*    border: 0px rgb(99,225,239) ridge; */
+/*    border: 1px rgb(255,225,255) solid; */
+/*    box-shadow: 3px 3px 6px rgb(99,225,239); */
+/*    box-shadow: 3px 3px 6px rgb(255,255,255); */
+    border-radius: 17px;
+}
+
+.ancreArtiste{
+    position: relative;
+    top: -310px;
+}
+
+/* --------- POLICE/BLOCS LIENS MUSIQUES ---------- */
+.policeLiensMusiquesAll{ 
+    color: rgb(74,120,242);
+}
+.policeLiensMusiquesRock{ 
+    color: rgb(244,250,18);
+}
+.policeLiensMusiquesRap{ 
+    color: rgb(19,19,19);
+}
+.policeLiensMusiquesReggae{ 
+    color: rgb(100,164,27); 
+    color: rgba(100,164,27,1);
+}
+.policeLiensMusiquesPop{ 
+/*
+    color: rgb(238,134,20);
+    color: rgba(255, 255, 255, 1);
+*/
+    color: #F4C962;
+/*
+    color: rgb(74,120,242);
+    color: rgba(74,120,242,0.7);
+*/
+}
+/* Desactive le click sur les liens musiques youtube*/
+#lienChoixPlayer{
+    cursor: pointer;
+}
+.blocLiens{ 
+    font-size: 0.8em;
+	display: inline-block;
+	width: 40%;
+	position: relative;
+	height: 145px; 
+	line-height : 35px;
+	overflow: auto;
+}
+.blocLiens1{ 
+    left: 40px;
+}
+.blocLiens2{ 
+    left: 70px;
+}
+
+.nonVisible{
+    height: 0px;
+/*    widths*/
+    visibility: hidden;
+    vertical-align: top; /* ne devrait pas être là, mais permet que les bloc soient bien à la bonne hauteur(sinon bug, ex: busta ryhmes)*/
+}
+.visible{
+    height: 145px;
+    overflow: auto;
+    visibility: visible;
+    vertical-align: top; /* ne devrait pas être là, mais permet que les bloc soient bien à la bonne hauteur(sinon bug, ex: busta ryhmes)*/
+}
+
+p a:hover{ 
+    color: rgb(248,43,20);
+    color: rgba(248,43,20,0.95);
+}
+/* ==================================== FIN FENETRE LIENS MUSIQUES ====================================== */
+
+
+
+
+/* --------- FENETRE CHOIX PLAYER ---------- */
+#retourFenetreLiensMusiques{
+/*    border: 1px solid red;*/
+}
+.boutonRetourFenetreLiensMusiques{
+    cursor: pointer;
+}
+.fenetreChoixPlayer{
+/*    border: 1px solid green;*/
+}
+.nomMusiqueChoixPlayer{
+    display: inline-block;
+    
+    text-align: center;
+    height: 15%;
+    overflow: auto;
+    width: 100%;
+/*    border: 1px solid blue;*/
+}
+.choixPlayer{
+    display: inline-block;
+    height: 80%;
+    width: 100%;
+/*    border: 1px solid yellow;*/
+}
+.choixPlayer_case{
+    display: inline-block;
+    padding-top: 3.2%;
+    height: 35%;
+    width: 49.5%;
+    text-align: center;
+/*    border: 1px solid purple;*/
+}
+.lienPlayer{
+    cursor: pointer;
+}
+/*
+.choixPlayer_monPlayer{
+    display: inline-block;
+    height: 100%;
+    width: 49.5%;
+    border: 1px solid white;
+}
+*/
+
+
+.couleurBordureAll{ 
+    border: 1px solid rgb(74,120,242);
+}
+.couleurBordureRock{ 
+    border: 1px solid rgb(244,250,18);
+}
+.couleurBordureRap{ 
+    border: 1px solid rgb(19,19,19);
+}
+.couleurBordureReggae{ 
+    border: 1px solid rgb(100,164,27); 
+}
+.couleurBordurePop{ 
+    border: 1px solid #F4C962;
+}
+.couleurLienPlayerAll{ 
+    border-bottom: 1px solid rgb(74,120,242);
+}
+.couleurLienPlayerRock{ 
+    border-bottom: 1px solid rgb(244,250,18);
+}
+.couleurLienPlayerRap{ 
+    border-bottom: 1px solid rgb(19,19,19);
+}
+.couleurLienPlayerReggae{ 
+    border-bottom: 1px solid rgb(100,164,27); 
+}
+.couleurLienPlayerPop{ 
+    border-bottom: 1px solid #F4C962;
+}
+/* ==================================== FIN FENETRE CHOIX PLAYER ====================================== */
+
+
+
+/* ======================================= BLOC EN DESSOUS DES LIENS ==================================== */
+.blocBasArticle{
+/*    border: 1px dotted blue;*/
+    height: 80px;
+    width: 99.5%;
+    display: inline-block;
+}
+.basArticle_fenetre1{
+    display: inline-block;
+/*    border: 1px dashed green;*/
+    font-size: 1.1em;
+    text-align:center;
+    padding-top: 25px;
+    height: 55px;
+    width: 49%;
+}
+.basArticle_fenetre2{
+    display: inline-block;
+/*    border: 1px dotted green;*/
+    font-size: 1.1em;
+    text-align:center;
+    padding-top: 25px;
+    height: 55px;
+    width: 49%;
+}
+.basArticle_fenetreAjoutMusique{
+    display: inline-block;
+/*    border: 1px dashed yellow;*/
+    font-size: 1.1em;
+    width: 75%;
+    text-align:center;
+    padding-top: 25px;
+    height: 55px;
+}
+.basArticle_fenetreRetour{
+    display: inline-block;
+/*    border: 1px dashed yellow;*/
+    font-size: 1.1em;
+    text-align:center;
+    padding-top: 25px;
+    height: 55px;
+    width: 23%;
+    vertical-align: top;
+}
+.fenetreCachee{
+    height: 0px;
+    visibility: hidden;
+}
+.fenetreAffichee{
+    height: 80px;
+    visibility: visible;
+}
+.ajoutRapide_musique{
+    width:  100px;
+}
+.ajoutRapide_lien{
+    width:  100px;
+}
+.redefCouleurTitreRap{
+    color: rgb(19,19,19);
+    color: rgba(19,19,19,0.9);
+}
+/* ================================= FIN BLOC EN DESSOUS DES BLIENS ===================================== */
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+/* ================================= IMAGES GROUPES (ASIDE BLOC LIENS)================================= */
+.imgOriginal{ background: url("../images/asideOriginal.jpeg") no-repeat; background-position: -37px -50px;}
+.imgRedHotChiliPeppers{ background: url("../images/redhot1.jpeg") no-repeat; background-position: -19px -18px;}
+.imgStromae{ background: url("../images/stromae.jpg") no-repeat; background-position: -10px -10px;}
+.imgOxmoPuccino{background: url("../images/oxmoPuccino.jpg") no-repeat; background-position: -6px -5px;}
+.imgTryo{ background: url("../images/tryo.jpg") no-repeat; background-position: -8px -15px;}
+.imgManuChao{ background: url("../images/manuChao.jpg") no-repeat; background-position: -7px 0px;}
+.imgKidCudi{ background: url("../images/kidCudi.jpg") no-repeat; background-position: -60px -45px;}
+.imgBOB{ background: url("../images/BOB.jpg") no-repeat; background-position: -0px -5px;}
+.imgHocusPocus{ background: url("../images/hocusPocus.jpg") no-repeat; background-position: 0px -10px;}
+.imgWizKhalifa{ background: url("../images/wizKhalifa.jpg") no-repeat; background-position: -15px 0px;}
+.imgDaftPunk{ background: url("../images/daftPunk.jpg") no-repeat; background-position: -60px -6px;}
+.imgRollingStones{ background: url("../images/rollingStones.jpg") no-repeat; background-position: -54px -35px;}
+.imgBobMarley{ background: url("../images/bobMarley.jpg") no-repeat; background-position: -0px -7px;}
+.imgLouiseAttaque{ background: url("../images/louiseAttaque.jpg") no-repeat; background-position: -15px -10px;}
+.imgRenaud{ background: url("../images/renaud.jpg") no-repeat; background-position: -0px -10px;}
+.imgNoirDesir{ background: url("../images/noirDesir.jpg") no-repeat; background-position: -18px -33px;}
+.imgShakaPonk{ background: url("../images/shakaPonk.jpg") no-repeat; background-position: -5px -18px;}
+.imgMacMiller{ background: url("../images/macMiller.png") no-repeat; background-position: 0px -9px;}
+.imgChiddyBang{ background: url("../images/chiddyBang.jpg") no-repeat; background-position: -7px 0px;}
+.imgDamienSaez{ background: url("../images/damienSaez.jpg") no-repeat; background-position: -10px 0px;}
+.imgIndochine{ background: url("../images/indochine.jpg") no-repeat; background-position: 0px -5px;}
+.imgDanakil{ background: url("../images/danakil.jpg") no-repeat; background-position: 0px -20px;}
+.imgTelephone{ background: url("../images/telephone.jpg") no-repeat; background-position: 0px -5px;}
+.imgImagineDragons{ background: url("../images/imagineDragons.png") no-repeat; background-position: -25px -0px;}
+.imgDubIncorporation{ background: url("../images/dubIncorporation2.jpg") no-repeat; background-position: 0px -30px;}
+.imgKendrickLamar{ background: url("../images/kendrickLamar.jpg") no-repeat; background-position: 0px -15px;}
+.imgASAPRocky{ background: url("../images/ASAPRocky.jpg") no-repeat; background-position: -10px 0px;}
+/* =============================FIN IMAGES GROUPES (aside bloc liens)================================== */

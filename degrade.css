@@ -1,0 +1,369 @@
+
+
+
+
+.degradeBlanc{
+    background: rgb(247,247,247); /* Old browsers */
+    background: -moz-linear-gradient(top, rgba(247,247,247,1) 0%, rgba(237,237,237,1) 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(247,247,247,1)), color-stop(100%,rgba(237,237,237,1))); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, rgba(247,247,247,1) 0%,rgba(237,237,237,1) 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, rgba(247,247,247,1) 0%,rgba(237,237,237,1) 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, rgba(247,247,247,1) 0%,rgba(237,237,237,1) 100%); /* IE10+ */
+    background: linear-gradient(to bottom, rgba(247,247,247,1) 0%,rgba(237,237,237,1) 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f7f7f7', endColorstr='#ededed',GradientType=0 ); /* IE6-9 */
+}
+.degradeVertClair{
+    /* 	gradient ci-dessous réalisé avec css3generator  fenetre verte clair */
+    /* -moz-border-radius: 43px;
+    -webkit-border-radius: 43px;
+    border-radius: 43px; */
+    /*IE 7 AND 8 DO NOT SUPPORT BORDER RADIUS*/
+    -moz-box-shadow: 0px 0px 15px #000000;
+    -webkit-box-shadow: 0px 0px 15px #000000;
+    box-shadow: 0px 0px 15px #000000;
+    /*IE 7 AND 8 DO NOT SUPPORT BLUR PROPERTY OF SHADOWS*/
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr = '#4aff12', endColorstr = '#fff336');
+    /*INNER ELEMENTS MUST NOT BREAK THIS ELEMENTS BOUNDARIES*/
+    /*Element must have a height (not auto)*/
+    /*All filters must be placed together*/
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr = '#4aff12', endColorstr = '#fff336')";
+    /*Element must have a height (not auto)*/
+    /*All filters must be placed together*/
+    background-image: -moz-linear-gradient(top, #4aff12, #fff336);
+    background-image: -ms-linear-gradient(top, #4aff12, #fff336);
+    background-image: -o-linear-gradient(top, #4aff12, #fff336);
+    background-image: -webkit-gradient(linear, center top, center bottom, from(#4aff12), to(#fff336));
+    background-image: -webkit-linear-gradient(top, #4aff12, #fff336);
+    background-image: linear-gradient(top, #4aff12, #fff336);
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    /*Use "background-clip: padding-box" when using rounded corners to avoid the gradient bleeding through the corners*/
+    /*--IE9 WILL PLACE THE FILTER ON TOP OF THE ROUNDED CORNERS--*/
+    opacity: 0.79;
+    -ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity = 89);
+    /*-ms-filter must come before filter*/
+    filter: alpha(opacity = 89);
+    /*INNER ELEMENTS MUST NOT BREAK THIS ELEMENTS BOUNDARIES*/
+    /*All filters must be placed together*/
+}
+.degradeVertFonce{
+    /* -moz-border-radius: 43px;
+    -webkit-border-radius: 43px;
+    border-radius: 43px; */
+    /*IE 7 AND 8 DO NOT SUPPORT BORDER RADIUS*/
+    -moz-box-shadow: 0px 0px 15px #000000;
+    -webkit-box-shadow: 0px 0px 15px #000000;
+    box-shadow: 0px 0px 15px #000000;
+    /*IE 7 AND 8 DO NOT SUPPORT BLUR PROPERTY OF SHADOWS*/
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr = '#16851e', endColorstr = '#b5b81a');
+    /*INNER ELEMENTS MUST NOT BREAK THIS ELEMENTS BOUNDARIES*/
+    /*Element must have a height (not auto)*/
+    /*All filters must be placed together*/
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr = '#16851e', endColorstr = '#b5b81a')";
+    /*Element must have a height (not auto)*/
+    /*All filters must be placed together*/
+    background-image: -moz-linear-gradient(top, #16851e, #b5b81a);
+    background-image: -ms-linear-gradient(top, #16851e, #b5b81a);
+    background-image: -o-linear-gradient(top, #16851e, #b5b81a);
+    background-image: -webkit-gradient(linear, center top, center bottom, from(#16851e), to(#b5b81a));
+    background-image: -webkit-linear-gradient(top, #16851e, #b5b81a);
+    background-image: linear-gradient(top, #16851e, #b5b81a);
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    /*Use "background-clip: padding-box" when using rounded corners to avoid the gradient bleeding through the corners*/
+    /*--IE9 WILL PLACE THE FILTER ON TOP OF THE ROUNDED CORNERS--*/
+    opacity: 0.9;
+    -ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity = 89);
+    /*-ms-filter must come before filter*/
+    filter: alpha(opacity = 89);
+    /*INNER ELEMENTS MUST NOT BREAK THIS ELEMENTS BOUNDARIES*/
+    /*All filters must be placed together*/
+}
+
+
+.degradeGris {
+    /* 	gradient ci-dessous réalisé avec css3generator  fenetre grise */	
+    /* -moz-border-radius: 43px;
+    -webkit-border-radius: 43px;
+    border-radius: 43px; */
+    /*IE 7 AND 8 DO NOT SUPPORT BORDER RADIUS*/
+    -moz-box-shadow: 0px 0px 15px #000000;
+    -webkit-box-shadow: 0px 0px 15px #000000;
+    box-shadow: 0px 0px 15px #000000;
+    /*IE 7 AND 8 DO NOT SUPPORT BLUR PROPERTY OF SHADOWS*/
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr = '#959694', endColorstr = '#0f0f03');
+    /*INNER ELEMENTS MUST NOT BREAK THIS ELEMENTS BOUNDARIES*/
+    /*Element must have a height (not auto)*/
+    /*All filters must be placed together*/
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr = '#959694', endColorstr = '#0f0f03')";
+    /*Element must have a height (not auto)*/
+    /*All filters must be placed together*/
+    background-image: -moz-linear-gradient(top, #959694, #0f0f03);
+    background-image: -ms-linear-gradient(top, #959694, #0f0f03);
+    background-image: -o-linear-gradient(top, #959694, #0f0f03);
+    background-image: -webkit-gradient(linear, center top, center bottom, from(#959694), to(#0f0f03));
+    background-image: -webkit-linear-gradient(top, #959694, #0f0f03);
+    background-image: linear-gradient(top, #959694, #0f0f03);
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    /*Use "background-clip: padding-box" when using rounded corners to avoid the gradient bleeding through the corners*/
+    /*--IE9 WILL PLACE THE FILTER ON TOP OF THE ROUNDED CORNERS--*/
+    opacity: 0.95;
+    -ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity = 95);
+    /*-ms-filter must come before filter*/
+    filter: alpha(opacity = 95);
+    /*INNER ELEMENTS MUST NOT BREAK THIS ELEMENTS BOUNDARIES*/
+    /*All filters must be placed together*/
+}
+.degradeGris2 {
+    /*IE 7 AND 8 DO NOT SUPPORT BORDER RADIUS*/
+    -moz-box-shadow: 0px 0px 15px #000000;
+    -webkit-box-shadow: 0px 0px 15px #000000;
+    box-shadow: 0px 0px 15px #000000;
+    /*IE 7 AND 8 DO NOT SUPPORT BLUR PROPERTY OF SHADOWS*/
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr = '#434648', endColorstr = '#7b7796');
+    /*INNER ELEMENTS MUST NOT BREAK THIS ELEMENTS BOUNDARIES*/
+    /*Element must have a height (not auto)*/
+    /*All filters must be placed together*/
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr = '#434648', endColorstr = '#7b7796')";
+    /*Element must have a height (not auto)*/
+    /*All filters must be placed together*/
+    background-image: -moz-linear-gradient(top, #434648, #7b7796);
+    background-image: -ms-linear-gradient(top, #434648, #7b7796);
+    background-image: -o-linear-gradient(top, #434648, #7b7796);
+    background-image: -webkit-gradient(linear, center top, center bottom, from(#434648), to(#7b7796));
+    background-image: -webkit-linear-gradient(top, #434648, #7b7796);
+    background-image: linear-gradient(top, #434648, #7b7796);
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    /*Use "background-clip: padding-box" when using rounded corners to avoid the gradient bleeding through the corners*/
+    /*--IE9 WILL PLACE THE FILTER ON TOP OF THE ROUNDED CORNERS--*/
+    /*--IE9 DOES NOT SUPPORT CSS3 GRADIENT BACKGROUNDS--*/
+    opacity: 0.98;
+    -ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity = 98);
+    /*-ms-filter must come before filter*/
+    filter: alpha(opacity = 98);
+    /*INNER ELEMENTS MUST NOT BREAK THIS ELEMENTS BOUNDARIES*/
+    /*All filters must be placed together*/
+
+}
+
+
+.degradeJauneRouge {
+    /* -moz-border-radius: 35px;
+    -webkit-border-radius: 35px;
+    border-radius: 35px; */
+    /*IE 7 AND 8 DO NOT SUPPORT BORDER RADIUS*/
+    -moz-box-shadow: 0px 0px 17px #000000;
+    -webkit-box-shadow: 0px 0px 17px #000000;
+    box-shadow: 0px 0px 17px #000000;
+    /*IE 7 AND 8 DO NOT SUPPORT BLUR PROPERTY OF SHADOWS*/
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr = '#f1ff0f', endColorstr = '#ff8261');
+    /*INNER ELEMENTS MUST NOT BREAK THIS ELEMENTS BOUNDARIES*/
+    /*Element must have a height (not auto)*/
+    /*All filters must be placed together*/
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr = '#f1ff0f', endColorstr = '#ff8261')";
+    /*Element must have a height (not auto)*/
+    /*All filters must be placed together*/
+    background-image: -moz-linear-gradient(top, #f1ff0f, #ff8261);
+    background-image: -ms-linear-gradient(top, #f1ff0f, #ff8261);
+    background-image: -o-linear-gradient(top, #f1ff0f, #ff8261);
+    background-image: -webkit-gradient(linear, center top, center bottom, from(#f1ff0f), to(#ff8261));
+    background-image: -webkit-linear-gradient(top, #f1ff0f, #ff8261);
+    background-image: linear-gradient(top, #f1ff0f, #ff8261);
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    /*Use "background-clip: padding-box" when using rounded corners to avoid the gradient bleeding through the corners*/
+    /*--IE9 WILL PLACE THE FILTER ON TOP OF THE ROUNDED CORNERS--*/
+    opacity: 0.86;
+    -ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity = 86);
+    /*-ms-filter must come before filter*/
+    filter: alpha(opacity = 86);
+    /*INNER ELEMENTS MUST NOT BREAK THIS ELEMENTS BOUNDARIES*/
+    /*All filters must be placed together*/
+}
+.degradeRougeJaune {
+    /* -moz-border-radius: 30px;
+    -webkit-border-radius: 30px;
+    border-radius: 30px; */
+    /*IE 7 AND 8 DO NOT SUPPORT BORDER RADIUS*/
+    -moz-box-shadow: 0px 0px 18px #000000;
+    -webkit-box-shadow: 0px 0px 18px #000000;
+    box-shadow: 0px 0px 18px #000000;
+    /*IE 7 AND 8 DO NOT SUPPORT BLUR PROPERTY OF SHADOWS*/
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr = '#ff5b29', endColorstr = '#ffc96b');
+    /*INNER ELEMENTS MUST NOT BREAK THIS ELEMENTS BOUNDARIES*/
+    /*Element must have a height (not auto)*/
+    /*All filters must be placed together*/
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr = '#ff5b29', endColorstr = '#ffc96b')";
+    /*Element must have a height (not auto)*/
+    /*All filters must be placed together*/
+    background-image: -moz-linear-gradient(top, #ff5b29, #ffc96b);
+    background-image: -ms-linear-gradient(top, #ff5b29, #ffc96b);
+    background-image: -o-linear-gradient(top, #ff5b29, #ffc96b);
+    background-image: -webkit-gradient(linear, center top, center bottom, from(#ff5b29), to(#ffc96b));
+    background-image: -webkit-linear-gradient(top, #ff5b29, #ffc96b);
+    background-image: linear-gradient(top, #ff5b29, #ffc96b);
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    /*Use "background-clip: padding-box" when using rounded corners to avoid the gradient bleeding through the corners*/
+    /*--IE9 WILL PLACE THE FILTER ON TOP OF THE ROUNDED CORNERS--*/
+    opacity: 0.83;
+    -ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity = 83);
+    /*-ms-filter must come before filter*/
+    filter: alpha(opacity = 83);
+    /*INNER ELEMENTS MUST NOT BREAK THIS ELEMENTS BOUNDARIES*/
+    /*All filters must be placed together*/
+
+}
+
+
+.degradeBleu{
+    /* 	gradient ci-dessous réalisé avec css3generator  fenetre bleue */	
+
+    /*IE 7 AND 8 DO NOT SUPPORT BORDER RADIUS*/
+    -moz-box-shadow: 0px 0px 15px #000000;
+    -webkit-box-shadow: 0px 0px 15px #000000;
+    box-shadow: 0px 0px 15px #000000;
+    /*IE 7 AND 8 DO NOT SUPPORT BLUR PROPERTY OF SHADOWS*/
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr = '#42ebff', endColorstr = '#6845ff');
+    /*INNER ELEMENTS MUST NOT BREAK THIS ELEMENTS BOUNDARIES*/
+    /*Element must have a height (not auto)*/
+    /*All filters must be placed together*/
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr = '#42ebff', endColorstr = '#6845ff')";
+    /*Element must have a height (not auto)*/
+    /*All filters must be placed together*/
+    background-image: -moz-linear-gradient(top, #42ebff, #6845ff);
+    background-image: -ms-linear-gradient(top, #42ebff, #6845ff);
+    background-image: -o-linear-gradient(top, #42ebff, #6845ff);
+    background-image: -webkit-gradient(linear, center top, center bottom, from(#42ebff), to(#6845ff));
+    background-image: -webkit-linear-gradient(top, #42ebff, #6845ff);
+    background-image: linear-gradient(top, #42ebff, #6845ff);
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    /*Use "background-clip: padding-box" when using rounded corners to avoid the gradient bleeding through the corners*/
+    /*--IE9 WILL PLACE THE FILTER ON TOP OF THE ROUNDED CORNERS--*/
+    opacity: 0.69;
+    -ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity = 89);
+    /*-ms-filter must come before filter*/
+    filter: alpha(opacity = 89);
+    /*INNER ELEMENTS MUST NOT BREAK THIS ELEMENTS BOUNDARIES*/
+    /*All filters must be placed together*/
+}
+
+
+.degradeVert{
+    /* 	gradient ci-dessous réalisé avec css3generator  fenetre verte */
+
+    /*IE 7 AND 8 DO NOT SUPPORT BORDER RADIUS*/
+    -moz-box-shadow: 0px 0px 15px #000000;
+    -webkit-box-shadow: 0px 0px 15px #000000;
+    box-shadow: 0px 0px 15px #000000;
+    /*IE 7 AND 8 DO NOT SUPPORT BLUR PROPERTY OF SHADOWS*/
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr = '#4aff12', endColorstr = '#fff336');
+    /*INNER ELEMENTS MUST NOT BREAK THIS ELEMENTS BOUNDARIES*/
+    /*Element must have a height (not auto)*/
+    /*All filters must be placed together*/
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr = '#4aff12', endColorstr = '#fff336')";
+    /*Element must have a height (not auto)*/
+    /*All filters must be placed together*/
+    background-image: -moz-linear-gradient(top, #4aff12, #fff336);
+    background-image: -ms-linear-gradient(top, #4aff12, #fff336);
+    background-image: -o-linear-gradient(top, #4aff12, #fff336);
+    background-image: -webkit-gradient(linear, center top, center bottom, from(#4aff12), to(#fff336));
+    background-image: -webkit-linear-gradient(top, #4aff12, #fff336);
+    background-image: linear-gradient(top, #4aff12, #fff336);
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    /*Use "background-clip: padding-box" when using rounded corners to avoid the gradient bleeding through the corners*/
+    /*--IE9 WILL PLACE THE FILTER ON TOP OF THE ROUNDED CORNERS--*/
+    opacity: 0.79;
+    -ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity = 89);
+    /*-ms-filter must come before filter*/
+    filter: alpha(opacity = 89);
+    /*INNER ELEMENTS MUST NOT BREAK THIS ELEMENTS BOUNDARIES*/
+    /*All filters must be placed together*/
+}
+
+
+.degradeOrange{
+    /* 	gradient ci-dessous réalisé avec css3generator  fenetre orange */	
+
+    /*IE 7 AND 8 DO NOT SUPPORT BORDER RADIUS*/
+    -moz-box-shadow: 0px 0px 15px #000000;
+    -webkit-box-shadow: 0px 0px 15px #000000;
+    box-shadow: 0px 0px 15px #000000;
+    /*IE 7 AND 8 DO NOT SUPPORT BLUR PROPERTY OF SHADOWS*/
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr = '#ff4700', endColorstr = '#000000');
+    /*INNER ELEMENTS MUST NOT BREAK THIS ELEMENTS BOUNDARIES*/
+    /*Element must have a height (not auto)*/
+    /*All filters must be placed together*/
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr = '#ff4700', endColorstr = '#000000')";
+    /*Element must have a height (not auto)*/
+    /*All filters must be placed together*/
+    background-image: -moz-linear-gradient(top, #ff4700, #000000);
+    background-image: -ms-linear-gradient(top, #ff4700, #000000);
+    background-image: -o-linear-gradient(top, #ff4700, #000000);
+    background-image: -webkit-gradient(linear, center top, center bottom, from(#ff4700), to(#000000));
+    background-image: -webkit-linear-gradient(top, #ff4700, #000000);
+    background-image: linear-gradient(top, #ff4700, #000000);
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    /*Use "background-clip: padding-box" when using rounded corners to avoid the gradient bleeding through the corners*/
+    /*--IE9 WILL PLACE THE FILTER ON TOP OF THE ROUNDED CORNERS--*/
+    opacity: 0.79;
+    -ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity = 89);
+    /*-ms-filter must come before filter*/
+    filter: alpha(opacity = 89);
+    /*INNER ELEMENTS MUST NOT BREAK THIS ELEMENTS BOUNDARIES*/
+    /*All filters must be placed together*/
+}
+
+.degradeOrange2{
+    background: rgb(135,224,253); /* Old browsers */
+    background: -moz-linear-gradient(top, rgba(135,224,253,1) 0%, rgba(244,200,96,1) 0%, rgba(242,216,124,1) 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(135,224,253,1)), color-stop(0%,rgba(244,200,96,1)), color-stop(100%,rgba(242,216,124,1))); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, rgba(135,224,253,1) 0%,rgba(244,200,96,1) 0%,rgba(242,216,124,1) 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, rgba(135,224,253,1) 0%,rgba(244,200,96,1) 0%,rgba(242,216,124,1) 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, rgba(135,224,253,1) 0%,rgba(244,200,96,1) 0%,rgba(242,216,124,1) 100%); /* IE10+ */
+    background: linear-gradient(to bottom, rgba(135,224,253,1) 0%,rgba(244,200,96,1) 0%,rgba(242,216,124,1) 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#87e0fd', endColorstr='#f2d87c',GradientType=0 ); /* IE6-9 */
+
+    /* permet de flouter...*/
+    /*    -webkit-filter: blur(5px); */
+/*    -moz-filter: blur(5px); */
+/*    -o-filter: blur(5px); */
+/*    -ms-filter: blur(5px); */
+/*    filter: blur(5px);*/
+
+}
+.degradeOrange3{
+    background: rgb(135,224,253); /* Old browsers */
+    background: -moz-linear-gradient(top, rgba(135,224,253,1) 0%, rgba(242,181,38,1) 0%, rgba(242,216,124,1) 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(135,224,253,1)), color-stop(0%,rgba(242,181,38,1)), color-stop(100%,rgba(242,216,124,1))); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, rgba(135,224,253,1) 0%,rgba(242,181,38,1) 0%,rgba(242,216,124,1) 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, rgba(135,224,253,1) 0%,rgba(242,181,38,1) 0%,rgba(242,216,124,1) 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, rgba(135,224,253,1) 0%,rgba(242,181,38,1) 0%,rgba(242,216,124,1) 100%); /* IE10+ */
+    background: linear-gradient(to bottom, rgba(135,224,253,1) 0%,rgba(242,181,38,1) 0%,rgba(242,216,124,1) 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#87e0fd', endColorstr='#f2d87c',GradientType=0 ); /* IE6-9 */
+}
+.degradeOrange4{
+    background: rgb(135,224,253); /* Old browsers */
+    background: -moz-linear-gradient(top, rgba(135,224,253,1) 0%, rgba(242,181,38,1) 0%, rgba(239,198,62,1) 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(135,224,253,1)), color-stop(0%,rgba(242,181,38,1)), color-stop(100%,rgba(239,198,62,1))); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, rgba(135,224,253,1) 0%,rgba(242,181,38,1) 0%,rgba(239,198,62,1) 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, rgba(135,224,253,1) 0%,rgba(242,181,38,1) 0%,rgba(239,198,62,1) 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, rgba(135,224,253,1) 0%,rgba(242,181,38,1) 0%,rgba(239,198,62,1) 100%); /* IE10+ */
+    background: linear-gradient(to bottom, rgba(135,224,253,1) 0%,rgba(242,181,38,1) 0%,rgba(239,198,62,1) 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#87e0fd', endColorstr='#efc63e',GradientType=0 ); /* IE6-9 */
+}
+

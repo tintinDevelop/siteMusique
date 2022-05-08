@@ -1,0 +1,119 @@
+
+/* ============================================== BLOC DROIT ================================================ */
+
+.blocDroit{
+	display: inline-block;
+    position: absolute;
+    top: 215px;
+    right: 1%;
+	
+	margin: 0px;
+	margin-top: 10px;
+	margin-left: 74px;
+	margin-bottom: 0px;
+	padding: 0px;
+    
+/*    border: 1px solid red;*/
+	
+	width: 15%;
+}
+.blocDroitFenetre{
+	display: block;
+	background-color: rgb(135,133,114); 
+	background-color: rgba(135,133,114,0.35);
+	border-radius: 4px;   
+}
+
+
+
+/* Titre de chaque bloc*/
+.general_titreFenetreBlocDroit{
+    text-align: center;
+    font-size: 1.2em;
+    font-family: 'chunkfiveroman', Arial, serif;
+/*    font-family: 'pusabregular', Arial, serif;*/
+
+    display: block;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    margin-top: 30px;
+    
+    cursor: pointer;
+    
+    border-width:0px;
+}
+
+
+/* Contenu des blocs */
+.general_blocDroitSection {
+    text-align: left;
+    font-size: 1em;
+    font-family: 'kaushan_scriptregular', Arial, serif;
+
+    display: block;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 10px;
+    margin-top: 0px;
+}
+.blocDroitSection1{ 
+    height:121px;
+}
+.blocDroitSection2{
+    height:220px;
+    font-size: 0.85em;
+    overflow: auto;
+}
+.blocDroitSection3{
+    margin-left: -8px; 
+    margin-top: 2px;
+}
+.blocDroitSection4{ 
+/*    text-align: center;*/
+    overflow: auto;
+    padding-bottom: 14px;
+}
+
+.blocDescriptionInput{
+    display: inline-block;
+    width: 33%;
+/*    border: 1px solid red;*/
+}
+
+
+/* Definition des emplacements des blocs a remplir pour ajouter une musique */
+.inputAjoutMusique{ 
+    width: 50%;
+}
+
+
+
+
+/* Mini Chat */
+.blocDroitInputMiniChat{
+    text-align: left;
+    font-size: 1em;
+    color: rgb(74,120,242);
+    color: rgba(74,120,242,0.9);
+    font-family: 'kaushan_scriptregular', Arial, serif;
+
+    display: block;
+
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 10px;
+    margin-top: 0px;
+    height:110px;
+    overflow: auto;
+}
+.pseudoMiniChat{
+    display: inline;
+    margin-left: 5px;
+    margin-bottom: 5px;
+    width: 59%; 
+    font-size: 1.1em;
+}
+
+
+
+/* ============================================ FIN BLOC DROIT =============================================== */

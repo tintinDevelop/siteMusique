@@ -1,0 +1,516 @@
+@font-face {
+    font-family: 'learning_curve_proregular';
+    src: url('polices_utilisees/LearningCurve_OT-webfont.eot');
+    src: url('polices_utilisees/LearningCurve_OT-webfont.eot?#iefix') format('embedded-opentype'),
+        url('polices_utilisees/LearningCurve_OT-webfont.woff') format('woff'),
+        url('polices_utilisees/LearningCurve_OT-webfont.ttf') format('truetype'),
+        url('polices_utilisees/LearningCurve_OT-webfont.svg#learning_curve_proregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'open_sansextrabold';
+    src: url('polices_utilisees/opensans-extrabold-webfont.eot');
+    src: url('polices_utilisees/opensans-extrabold-webfont.eot?#iefix') format('embedded-opentype'),
+        url('polices_utilisees/opensans-extrabold-webfont.woff') format('woff'),
+        url('polices_utilisees/opensans-extrabold-webfont.ttf') format('truetype'),
+        url('polices_utilisees/opensans-extrabold-webfont.svg#open_sansextrabold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'kaushan_scriptregular';
+    src: url('polices_utilisees/kaushanscript-regular-webfont.eot');
+    src: url('polices_utilisees/kaushanscript-regular-webfont.eot?#iefix') format('embedded-opentype'),
+        url('polices_utilisees/kaushanscript-regular-webfont.woff') format('woff'),
+        url('polices_utilisees/kaushanscript-regular-webfont.ttf') format('truetype'),
+        url('polices_utilisees/kaushanscript-regular-webfont.svg#kaushan_scriptregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'chunkfiveroman';
+    src: url('polices_utilisees/chunkfive-webfont.eot');
+    src: url('polices_utilisees/chunkfive-webfont.eot?#iefix') format('embedded-opentype'),
+        url('polices_utilisees/chunkfive-webfont.woff') format('woff'),
+        url('polices_utilisees/chunkfive-webfont.ttf') format('truetype'),
+        url('polices_utilisees/chunkfive-webfont.svg#chunkfiveroman') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'pusabregular';
+    src: url('polices_utilisees/pusab___-webfont.eot');
+    src: url('polices_utilisees/pusab___-webfont.eot?#iefix') format('embedded-opentype'),
+        url('polices_utilisees/pusab___-webfont.woff2') format('woff2'),
+        url('polices_utilisees/pusab___-webfont.woff') format('woff'),
+        url('polices_utilisees/pusab___-webfont.ttf') format('truetype'),
+        url('polices_utilisees/pusab___-webfont.svg#pusabregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+/* ==============================================================================================================*/
+/* ==============================================================================================================*/
+/* ==============================================================================================================*/
+/* ==============================================================================================================*/
+/* ==============================================================================================================*/
+/* ==============================================================================================================*/
+/* ==============================================================================================================*/
+/*
+
+@font-face {
+    font-family: 'grand_hotelregular';
+    src: url('polices_utilisees/grandhotel-regular-webfont.eot');
+    src: url('polices_utilisees/grandhotel-regular-webfont.eot?#iefix') format('embedded-opentype'),
+        url('polices_utilisees/grandhotel-regular-webfont.woff2') format('woff2'),
+        url('polices_utilisees/grandhotel-regular-webfont.woff') format('woff'),
+        url('polices_utilisees/grandhotel-regular-webfont.ttf') format('truetype'),
+        url('polices_utilisees/grandhotel-regular-webfont.svg#grand_hotelregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+
+@font-face {
+    font-family: 'gooddogregular';
+    src: url('polices_utilisees/gooddog-webfont.eot');
+    src: url('polices_utilisees/gooddog-webfont.eot?#iefix') format('embedded-opentype'),
+        url('polices_utilisees/gooddog-webfont.woff2') format('woff2'),
+        url('polices_utilisees/gooddog-webfont.woff') format('woff'),
+        url('polices_utilisees/gooddog-webfont.ttf') format('truetype'),
+        url('polices_utilisees/gooddog-webfont.svg#gooddogregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+
+@font-face {
+    font-family: 'alfa_slab_oneregular';
+    src: url('polices_utilisees/alfaslabone-regular-webfont.eot');
+    src: url('polices_utilisees/alfaslabone-regular-webfont.eot?#iefix') format('embedded-opentype'),
+        url('polices_utilisees/alfaslabone-regular-webfont.woff2') format('woff2'),
+        url('polices_utilisees/alfaslabone-regular-webfont.woff') format('woff'),
+        url('polices_utilisees/alfaslabone-regular-webfont.ttf') format('truetype'),
+        url('polices_utilisees/alfaslabone-regular-webfont.svg#alfa_slab_oneregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'bp_dietultrablack_italic';
+    src: url('polices_utilisees/bpdietitalics-webfont.eot');
+    src: url('polices_utilisees/bpdietitalics-webfont.eot?#iefix') format('embedded-opentype'),
+        url('polices_utilisees/bpdietitalics-webfont.woff2') format('woff2'),
+        url('polices_utilisees/bpdietitalics-webfont.woff') format('woff'),
+        url('polices_utilisees/bpdietitalics-webfont.ttf') format('truetype'),
+        url('polices_utilisees/bpdietitalics-webfont.svg#bp_dietultrablack_italic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'bp_dietultrablack';
+    src: url('polices_utilisees/bpdiet-webfont.eot');
+    src: url('polices_utilisees/bpdiet-webfont.eot?#iefix') format('embedded-opentype'),
+        url('polices_utilisees/bpdiet-webfont.woff2') format('woff2'),
+        url('polices_utilisees/bpdiet-webfont.woff') format('woff'),
+        url('polices_utilisees/bpdiet-webfont.ttf') format('truetype'),
+        url('polices_utilisees/bpdiet-webfont.svg#bp_dietultrablack') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'clutcheeregular';
+    src: url('polices_utilisees/clutchee-webfont.eot');
+    src: url('polices_utilisees/clutchee-webfont.eot?#iefix') format('embedded-opentype'),
+        url('polices_utilisees/clutchee-webfont.woff2') format('woff2'),
+        url('polices_utilisees/clutchee-webfont.woff') format('woff'),
+        url('polices_utilisees/clutchee-webfont.ttf') format('truetype'),
+        url('polices_utilisees/clutchee-webfont.svg#clutcheeregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'passionbold';
+    src: url('polices_utilisees/passionone-regular-webfont.eot');
+    src: url('polices_utilisees/passionone-regular-webfont.eot?#iefix') format('embedded-opentype'),
+        url('polices_utilisees/passionone-regular-webfont.woff2') format('woff2'),
+        url('polices_utilisees/passionone-regular-webfont.woff') format('woff'),
+        url('polices_utilisees/passionone-regular-webfont.ttf') format('truetype'),
+        url('polices_utilisees/passionone-regular-webfont.svg#passionbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'ceviche_oneregular';
+    src: url('polices_utilisees/cevicheone-regular-webfont.eot');
+    src: url('polices_utilisees/cevicheone-regular-webfont.eot?#iefix') format('embedded-opentype'),
+        url('polices_utilisees/cevicheone-regular-webfont.woff2') format('woff2'),
+        url('polices_utilisees/cevicheone-regular-webfont.woff') format('woff'),
+        url('polices_utilisees/cevicheone-regular-webfont.ttf') format('truetype'),
+        url('polices_utilisees/cevicheone-regular-webfont.svg#ceviche_oneregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'kavoonregular';
+    src: url('polices_utilisees/kavoon-regular-webfont.eot');
+    src: url('polices_utilisees/kavoon-regular-webfont.eot?#iefix') format('embedded-opentype'),
+        url('polices_utilisees/kavoon-regular-webfont.woff2') format('woff2'),
+        url('polices_utilisees/kavoon-regular-webfont.woff') format('woff'),
+        url('polices_utilisees/kavoon-regular-webfont.ttf') format('truetype'),
+        url('polices_utilisees/kavoon-regular-webfont.svg#kavoonregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'comic_zine_otregular';
+    src: url('polices_utilisees/comic_zine_ot-webfont.eot');
+    src: url('polices_utilisees/comic_zine_ot-webfont.eot?#iefix') format('embedded-opentype'),
+        url('polices_utilisees/comic_zine_ot-webfont.woff2') format('woff2'),
+        url('polices_utilisees/comic_zine_ot-webfont.woff') format('woff'),
+        url('polices_utilisees/comic_zine_ot-webfont.ttf') format('truetype'),
+        url('polices_utilisees/comic_zine_ot-webfont.svg#comic_zine_otregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'leckerlioneregular';
+    src: url('polices_utilisees/leckerlione-regular-webfont.eot');
+    src: url('polices_utilisees/leckerlione-regular-webfont.eot?#iefix') format('embedded-opentype'),
+        url('polices_utilisees/leckerlione-regular-webfont.woff2') format('woff2'),
+        url('polices_utilisees/leckerlione-regular-webfont.woff') format('woff'),
+        url('polices_utilisees/leckerlione-regular-webfont.ttf') format('truetype'),
+        url('polices_utilisees/leckerlione-regular-webfont.svg#leckerlioneregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'burnstown_damregular';
+    src: url('polices_utilisees/burnstown_dam-webfont.eot');
+    src: url('polices_utilisees/burnstown_dam-webfont.eot?#iefix') format('embedded-opentype'),
+        url('polices_utilisees/burnstown_dam-webfont.woff2') format('woff2'),
+        url('polices_utilisees/burnstown_dam-webfont.woff') format('woff'),
+        url('polices_utilisees/burnstown_dam-webfont.ttf') format('truetype'),
+        url('polices_utilisees/burnstown_dam-webfont.svg#burnstown_damregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'passion_onebold';
+    src: url('polices_utilisees/passionone-bold-webfont.eot');
+    src: url('polices_utilisees/passionone-bold-webfont.eot?#iefix') format('embedded-opentype'),
+        url('polices_utilisees/passionone-bold-webfont.woff2') format('woff2'),
+        url('polices_utilisees/passionone-bold-webfont.woff') format('woff'),
+        url('polices_utilisees/passionone-bold-webfont.ttf') format('truetype'),
+        url('polices_utilisees/passionone-bold-webfont.svg#passion_onebold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+
+
+
+@font-face {
+    font-family: 'poetsenoneregular';
+    src: url('polices_utilisees/poetsenone-regular-webfont.eot');
+    src: url('polices_utilisees/poetsenone-regular-webfont.eot?#iefix') format('embedded-opentype'),
+        url('polices_utilisees/poetsenone-regular-webfont.woff2') format('woff2'),
+        url('polices_utilisees/poetsenone-regular-webfont.woff') format('woff'),
+        url('polices_utilisees/poetsenone-regular-webfont.ttf') format('truetype'),
+        url('polices_utilisees/poetsenone-regular-webfont.svg#poetsenoneregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+*/
+
+
+
+
+/* definission des differents fonts d'ecran en fonction du style choisi*/
+body{
+	background: url("images/fond2.jpeg") 0px 50px repeat scroll;
+	margin-bottom: 0px;
+/*    width: 100%;*/
+}
+.All{}
+.Rock{
+/*    background: url("images/rock1.jpeg") -75px 180px repeat scroll;*/
+    background: url("images/rock1.jpeg") 46% 180px repeat scroll;
+}
+.Rap{
+/*    background: url("images/rap3.jpg") 80px -260px repeat scroll;*/
+    background: url("images/rap3.jpg") 49% -260px repeat scroll;
+}
+.Reggae{
+/*	background: url("images/reggae.jpg") -600px 55px repeat scroll;*/
+	background: url("images/reggae.jpg") 86% 55px repeat scroll;
+}
+.Pop{
+/*    background: url("images/fondEcranPop.jpg") -50px 230px repeat scroll;*/
+    background: url("images/fondEcranPop.jpg") 51% 230px repeat scroll;
+}
+
+
+.fondOriginal{
+    background-color: rgb(135,133,114); 
+    background-color: rgba(135,133,114,0.35);
+}
+
+/*  Attributs partagés par plusieurs endroits de la page. Ils sont donc définits dans la class paramPage   */
+/* Couleur du titre principal (et des element de profil)*/
+.couleurTitrePrincipalAll{ 
+    color: rgb(248,43,20); 
+    color: rgba(248,43,20,0.6); 
+}
+.couleurTitrePrincipalRock{ 
+    color: rgb(244,250,18);
+}
+.couleurTitrePrincipalRap{ 
+    color: rgb(74,120,242);
+}
+.couleurTitrePrincipalReggae{ 
+    color: rgb(100,164,27);
+}
+.couleurTitrePrincipalPop{ 
+/*
+    color: rgb(117,232,228);
+    color: rgba(117,232,228,0.9);
+    color: rgba(255, 255, 255, 1);
+*/
+    color: #F3CB65;
+
+}
+
+/* Fenetre News Et Choix Style*/
+.fntrNewsEtChoixStyle_couleurTitreAll{
+    color: rgb(74,120,242);
+    color: rgba(74,120,242,0.9);
+}
+.fntrNewsEtChoixStyle_couleurTitreRock{
+    color: rgb(74,120,242);
+    color: rgba(74,120,242,0.9);
+}
+.fntrNewsEtChoixStyle_couleurTitreRap{
+    color: rgb(74,120,242);
+    color: rgba(74,120,242,0.9);
+}
+.fntrNewsEtChoixStyle_couleurTitreReggae{
+    color: rgb(74,120,242);
+    color: rgba(74,120,242,0.9);
+}
+.fntrNewsEtChoixStyle_couleurTitrePop{
+    color: rgb(255,255,255);
+    color: rgba(255, 255, 255, 0.9);
+}
+
+
+/*Couleur de la bordure en fonction du theme*/
+.bordureGeneralAll{
+    border: 1px solid rgba(74,120,242,0.9);
+}
+.bordureGeneralRock{
+    border: 1px solid rgba(74,120,242,0.9);
+}
+.bordureGeneralRap{
+    border: 1px solid red;
+}
+.bordureGeneralReggae{
+    border: 1px solid rgba(100,164,27,1);
+}
+.bordureGeneralPop{
+/*    border: 1px solid rgb(238,134,20);*/
+    border: 1px solid #F3CB65;
+}
+
+.boites_couleurTitreRock{ 
+    color: rgb(248,43,20); 
+    color: rgba(248,43,20,0.8);
+}
+.boites_couleurTitreReggae{ 
+    color: rgb(248,43,20); 
+    color: rgba(248,43,20,0.8);
+}
+.boites_couleurTitrePop{
+/*
+    color: rgb(117,232,228);
+    color: rgba(117,232,228,0.9);
+*/
+    color: rgb(255, 255, 255);
+    color: rgba(255, 255, 255, 0.9);
+
+}
+.boites_couleurTitreAll, .boites_couleurTitreRap{
+    color: rgb(248,43,20); 
+    color: rgba(248,43,20,0.6); 
+}
+
+
+.boites_couleurPoliceRap{ 
+    color: rgb(19,19,19); 
+    color: rgba(19,19,19,0.9);
+}
+.boites_couleurPoliceReggae{ 
+    color: rgb(245,240,22); 
+    color: rgba(245,240,22,0.9);
+}
+.boites_couleurPoliceAll, .boites_couleurPoliceRock, .boites_couleurPolicePop{
+    color: rgb(74,120,242);
+    color: rgba(74,120,242,0.8);
+}
+
+/* Couleur des bordures du bas des blocs que l'on fait apparaitre */
+.boites_separateurBleue{ 
+    border-bottom: 1px solid rgb(74,120,242);
+}
+.boites_separateurRouge{ 
+    border-bottom: 1px solid rgb(199,56,21);
+}
+.boites_separateurGris{ 
+    border-bottom: 1px solid rgb(159,183,179);
+}
+
+
+/*Definition des couleurs des pseudos du MiniChat*/
+.miniChat_couleurPseudoAll, .miniChat_couleurPseudoRock, .miniChat_couleurPseudoPop{ 
+    color: rgb(248,43,20);
+    color: rgba(248,43,20,0.7);
+}
+.miniChat_couleurPseudoRap{ 
+    color: rgb(74,120,242);
+    color: rgba(74,120,242,0.8);
+}
+.miniChat_couleurPseudoReggae{ 
+    color: rgb(245,240,22); 
+    color: rgba(245,240,22,0.9);
+}
+
+
+/* =======    Footer   ======= */
+/* Couleur titre cellule */
+.footer_couleurTitreAll{
+    color: rgb(248,43,20); 
+    color: rgba(248,43,20,0.6);
+}
+.footer_couleurTitreRock{
+    color: rgb(244,250,18);
+}
+.footer_couleurTitreRap{
+    color: rgb(248,43,20); 
+    color: rgba(248,43,20,0.6);
+}
+.footer_couleurTitreReggae{/*faire des pourcentages*/
+    color: rgb(244,250,18);
+}
+.footer_couleurTitrePop{
+    color: rgb(255, 255, 255);
+    color: rgba(255, 255, 255, 0.9);
+}
+
+/*Couleur police cellules */
+.footer_couleurPoliceCelluleAll{
+    color: rgba(74,120,242);
+    color: rgba(74,120,242,0.9);
+}
+.footer_couleurPoliceCelluleRock{  
+    color: rgba(74,120,242);
+    color: rgba(74,120,242,0.9);
+}
+.footer_couleurPoliceCelluleRap{
+    color: rgba(74,120,242);
+    color: rgba(74,120,242,0.9);
+}
+.footer_couleurPoliceCelluleReggae{
+    color: rgb(100,164,27); 
+    color: rgba(100,164,27,1);
+}
+.footer_couleurPoliceCellulePop{
+/*    color: rgb(238,134,20);*/
+    color: #F3CB65;
+    color: #F4C861;
+    color: #FFB445;
+
+}
+
+/* Couleurs des liens avant et après click */
+a{   text-decoration: none;}
+
+
+
+
+/* Outils Generaux */
+
+/* L'utilisateur ne pourra plus sélectionner le texte de l'élément qui possède cette propriété CSS */
+.texteNonSelectionnable{
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}

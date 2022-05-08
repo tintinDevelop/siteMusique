@@ -1,0 +1,276 @@
+
+/* =========================================== HEADER ====================================== */
+
+header{
+	display: inline-block;
+    position: relative;
+    top: -8px;
+	background-color: rgb(1,2,5); 
+	background-color: rgba(1,2,5,1); 
+	border-radius: 10px;
+	width: 99.5%;
+}
+
+
+
+
+
+
+/* BLOC FIXE CACHE DU PROFIL (titre du site, connexion, inscription) */
+/* Fenetre */
+.fntrConnexion{
+    margin-top: 0px;
+    position: fixed;
+    top: 0.1%;
+    width: 98.5%;
+    width: 97%;
+    height: 35px;
+    background-color: #010205;
+    z-index: 1;
+    font-family: 'kaushan_scriptregular', Arial, serif;
+    font-size: 0.8em;
+    border-radius: 10px;
+}
+/* Bloc du titre du site(haut a gauche) */
+.blocTitreSite{
+    display: inline-block;
+    width: 20%;
+    height: 100%;
+    font-family: 'pusabregular', Arial, serif;
+/*    color: rgb(71,234,43);*/
+    background-color: #333333;
+    font-size: 1.2em;
+    border-radius: 10px 0px 0px 10px;
+
+    vertical-align: top;
+}
+.posTitreFntrConnexion{
+    display: inline-block;
+    
+    float: right;
+    position: relative;
+    top: 6px;
+    top: 23%;
+    left: -13%;
+}
+.bandeauSessionConnexion{
+    display: inline-block;
+    width: 70%;
+    height: 100%;
+    
+    border: 0px solid yellow;
+}
+
+
+
+.bandeauOriginal{
+    vertical-align: top;
+    display: inline-block;
+    width: 70%;
+    height: 100%;
+/*    border: 1px solid red;*/
+}
+.bandeauOriginal_bloc1{
+/*    border: 1px solid blue;*/
+    display: inline-block;
+    vertical-align: top;
+    width: 85%;
+    height: 90%;
+}
+.bandeauOriginal_bloc2{
+/*    border: 1px solid green;*/
+    display: inline-block;
+    vertical-align: top;
+    width: 14%;
+    height: 90%;
+}
+
+.bandeauOriginal_caseBonjour{
+    vertical-align: text-bottom;
+    width: 30%;
+    height: 80%;
+    margin-left: 5%;
+    padding-top: 6px;
+    text-align: center;
+    border: 0px solid green;
+}
+.bandeauOriginal_casePlayer{
+    text-align: center;
+    width: 60%;
+    height: 56%;
+    margin-top: 8px;
+    margin-left: 19%;
+    cursor: pointer;
+    border: 1px solid rgba(74,120,242,0.9);
+}
+
+
+
+
+/* Blocs contenant les noms Pseudo et Mot De Passe */
+.general_blocsCorrespondanceFormulaire{
+    display: inline-block;
+    position: relative;
+    top: 6px;
+    border: 0px solid red;
+}
+.blocPseudo{ 
+    margin-left: 14%;
+    width: 15%;
+    border: 0px solid green;
+}
+.blocMDP{ 
+    margin-left: 11%;
+    width: 15%; 
+    border: 0px solid green;
+}
+.blocConnexion{
+    margin-left: 3%;
+    width: 7%; 
+    border: 0px solid green;
+}
+.blocInscription{
+    margin-left: 32%;
+    width: 7%; 
+    border: 0px solid green;
+}
+
+
+
+
+.caseProfil{
+    display: inline-block;
+    width: 6%;
+    height: 50%;
+    vertical-align: top;
+ 
+    margin-top: 8px;
+
+    cursor: pointer;
+    text-align: center;
+    border: 1px solid rgba(74,120,242,0.9);
+}
+.fntrConnexionCouleurBordureAll{
+    border-color: rgb(248,43,20); 
+    border-color: rgba(248,43,20,0.6); 
+}
+.fntrConnexionCouleurBordureRock{
+    border-color: rgb(244,250,18);
+}
+.fntrConnexionCouleurBordureRap{
+    color: rgb(74,120,242);
+}
+.fntrConnexionCouleurBordureReggae{
+    border-color: rgb(100,164,27);
+}
+.fntrConnexionCouleurBordurePop{
+/*    border-color: rgba(255, 255, 255, 1);*/
+    border-color:  #F3CB65;
+    ;
+}
+
+
+/* BLOCS DES FORMULAIRES CORRESPONDANTS */
+.general_blocsFormulaires{
+    display: block;
+    position: fixed;
+    top: 8px; 
+    z-index: 2;
+}
+.inputFormulairePseudo{ width: 10%; left: 33.5%;}
+.inputFormulaireMDP{ width: 5%; left: 54%;}
+.validationFormulaire{ left: 67%;}
+
+
+
+
+
+
+/* IMAGES ET TITRE PRINCIALE */
+.header_blocGeneral{
+    border: 0px solid red;
+    height: 110px;
+/*    height: 100%;*/
+    position: relative;
+    top: 40px;
+}
+.header_blocGauche{
+    display: inline-block;
+    width: 20%;
+    border: 0px solid green;
+}
+.header_blocCentrale{
+    display: inline-block;
+    width: 58.2%;
+    height: 100%;
+    vertical-align: top;
+    border: 0px solid green;
+}
+.header_blocDroit{
+    display: inline-block;
+    width: 20%;
+    border: 0px solid green;
+}
+
+.header_image1 /* place de la premiere image de couleurs */{
+    width: 100%;
+    height: 110px;
+    background: url("../images/musique5.jpg") no-repeat 20% 0%;
+    float: left;
+    border: 0px solid yellow;
+}
+.header_image2 /* place de la deuxieme image de couleurs inversée */{
+    width: 100%;
+    height: 110px;
+    background: url("../images/musique5Retournee.jpg") no-repeat 100% 0%;
+    float: right;
+    border: 0px solid yellow;
+}
+.header_titrePrincipale{
+/*	font-family: 'kaushan_scriptregular', Arial, serif;*/
+/*    font-family: 'learning_curve_proregular', Arial, serif;*/
+/*    font-family: 'open_sansextrabold', Arial, serif;*/
+/*    font-family: 'grand_hotelregular', Arial, serif;*/
+/*    font-family: 'gooddogregular', Arial, serif;*/
+    
+/*    font-family: 'alfa_slab_oneregular', Arial, serif;*/
+/*    font-family: 'bp_dietultrablack_italic', Arial, serif;*/
+/*    font-family: 'bp_dietultrablack', Arial, serif;*/
+/*    font-family: 'clutcheeregular', Arial, serif;*/
+/*    font-family: 'passionbold', Arial, serif;*/
+/*    font-family: 'ceviche_oneregular', Arial, serif;*/
+/*    font-family: 'kavoonregular', Arial, serif;*/
+/*    font-family: 'comic_zine_otregular', Arial, serif;*/
+/*    font-family: 'leckerlioneregular', Arial, serif;*/
+/*    font-family: 'burnstown_damregular', Arial, serif;*/
+/*    font-family: 'passion_onebold', Arial, serif;*/
+    font-family: 'pusabregular', Arial, serif;
+/*    font-family: 'poetsenoneregular', Arial, serif;*/
+
+    
+    
+	font-size: 2.6em;
+	text-align: center;
+	margin-top: 20px;;
+}
+
+
+
+
+.header_blocChoixPage{
+    display: inline-block;
+    width: 99%;
+    height: 50px;
+    border: 1px ridge green;
+}
+.blocChoixPage_Musique{
+    display: inline-block;
+    width: 49%;
+    border: 1px ridge yellow;
+}
+.blocChoixPage_Frisbee{
+    display: inline-block;
+    width: 49%;
+    border: 1px ridge yellow;
+}
+/* ============================================ FIN Header ====================================== */

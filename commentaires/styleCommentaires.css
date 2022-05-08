@@ -1,0 +1,62 @@
+
+
+/* ----------- STYLES ----------- */
+.fondNoir{ background-color: rgb(1,1,1); background-color: rgba(1,1,1,1);}
+.fondGris{ background-color: rgb(135,133,114); background-color: rgba(135,133,114,0.35);}
+
+.policeBleue{ color: rgb(74,120,242); color: rgba(74,120,242,0.9);}
+.policeRouge{ color: rgb(248,43,20); color: rgba(248,43,20,0.7);}
+
+.policeKaushan{ font-family: 'kaushan_scriptregular', Arial, serif;}
+.policeChunkFive{ font-family: 'chunkfiveroman', Arial, serif;}
+
+
+/* ---------- NEWSLETTER ---------- */
+
+/* Retour vers le site */
+.lienRetourSite{ color: blue;}
+
+
+
+/* Premier bloc: Affichage du Post */
+.blocCommentaire{ height: 230px;}
+.titreBlocCommentaire
+{
+    font-size: 1.5em;
+    text-align: center;
+    color: blue;
+}
+.fenetreCommentaires
+{
+    margin: auto;
+    width: 40%;
+    border: 1px solid red;
+    border-radius: 7px;
+}
+
+
+
+/* Blocs suivants : Affichage des billets */
+.fenetreBillet
+{
+    height: 130px;
+    overflow: auto;
+    margin: auto;
+    width: 40%;
+    border: 1px solid red;
+    border-radius: 7px; 
+}
+.blocTitreBillet  { padding: 3px; padding-left: 6px;}
+.blocContenuBillet{ padding: 2px; padding-left: 3px;}
+
+
+
+/* Bloc INPUT */
+.blocInputComm
+{
+    font-size: 1.2em;
+    margin: auto;
+    margin-top: 10px;
+    width: 40%;
+}
+.pseudoInputCommentaire{}

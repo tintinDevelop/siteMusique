@@ -1,0 +1,13 @@
+
+Ceci est le début de mon site {{ moteur_name }} !
+
+{% filter upper|escape %}
+    je vais être écrit en majuscule <em>et échappé</em>
+{{ moi_aussi}}
+bla
+{% endfilter %}
+
+
+{% autoescape false %}
+<strong>Je vais être affiché en gras</strong>
+{% endautoescape %}

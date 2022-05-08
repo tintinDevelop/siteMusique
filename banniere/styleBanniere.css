@@ -1,0 +1,349 @@
+
+.fondNoir{ background-color: rgb(1,1,1); background-color: rgba(1,1,1,1);}
+.bordure15px{ border-radius: 15px 15px 15px 15px;}
+.bordureBas10px{ border-radius: 0px 0px 10px 10px;}
+.bordureHaut10px{ border-radius: 10px 10px 0px 0px;}
+
+
+/* ============================================== BANNIERE ====================================== */
+/* bloc noirs superieur et inferieur de la banniere */
+.blocSurBanniere{ height: 12px; margin-bottom: 0px;}
+.blocSousBanniere{ height: 20px; margin-top: 0px;}
+
+/* cadre et image*/
+.general_banniereImage{
+    height: 62px;
+/*    margin-top: 0px;*/
+    background: url("../images/banniere.jpg") no-repeat;
+    background-position: 100px -10px;
+/*    background-position: 11% -10px;*/
+}
+
+
+/* citation */
+#descriptionBanniere{
+	width: 48%;
+	font-family: 'open_sansextrabold', Arial, serif;
+	font-size: 0.8em; 
+	color: rgb(114,199,226);
+	position: relative;
+	left: 47%;
+	top: 25%;
+}
+.auteurCitation{
+	float: right;
+	font-size: 0.65em; 
+	position: relative;
+	right: 5px;
+}
+
+
+
+/* ---------- NEWSLETTER ---------- */
+.fntrNewsEtChoixStyle{ 
+    border-radius: 10px;
+    width: 50%; 
+    margin:auto;
+    cursor: pointer;
+}
+.titreFntrNewsEtChoixStyle{
+    font-size: 1.5em;
+    font-family: 'kaushan_scriptregular', Arial, serif;
+    text-align: center;
+}
+.fenetreBillets{
+    height: 125px;
+    overflow: auto;
+    margin: auto;
+    margin-bottom: 30px;
+    width: 78%;
+    border: 1px solid red;
+    border-radius: 7px;
+}
+.blocTitreCommNewsletter  {
+    padding: 3px;
+    padding-left: 6px;
+    font-family: 'chunkfiveroman', Arial, serif;
+    
+    color: rgb(248,43,20); 
+    color: rgba(248,43,20,0.7); 
+    
+    background-color: rgb(135,133,114); 
+    background-color: rgba(135,133,114,0.35);
+}
+.blocContenuCommNewsletter{
+    padding: 2px;
+    padding-left: 3px;
+    font-family: 'kaushan_scriptregular', Arial, serif;
+    
+    color: rgb(74,120,242);
+    color: rgba(74,120,242,0.9);
+}
+.lienCommNewsletter{ color: green;}
+
+/* degradé utilisé pour le style reggae*/
+.couleurRouge{
+    color: red;
+}
+.couleurVert{
+    color: green;
+}
+.couleurJaune{
+    color: yellow;
+}
+
+
+
+/* ---------- CHOIX DU STYLE ---------- */
+/* fenetre contenant tous les boutons */
+.fntrNewsEtChoixStyle_choixStyle{
+    margin-top: 25px;
+    margin-bottom: 500px;
+/*    border: 1px solid yellow;*/
+}
+.fenetreBoutons {
+	vertical-align: top;
+	display: inline-block;
+	position: relative;
+	top: -3px;
+	font-family: 'kaushan_scriptregular', Arial, serif;
+	font-size: 1.5em;
+	padding: 0px;
+    width: 100%;
+	color: rgb(255,0,0);
+	margin: auto;
+    margin-top: 5px;
+/*	border: 1px solid blue; */
+}
+.bandeauStyle {
+    border: 0px solid green; 
+	position: relative;
+    top: -20px;
+    height: auto;
+    width: 85%;
+    overflow-x: scroll;/*ne fonctionne pas*/
+    overflow-y: auto;/*impossible de l'interdire..*/
+}
+
+.bandeauStyle_caseStyle {
+    border: 0px solid yellow;
+    display: inline-block;
+    width: 100px;
+}
+.bandeauStyle_caseTitreStyle {
+    border: 0px solid red;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+}
+.bandeauStyle_titreStyle {
+    border: 0px solid green;
+    display: inline-block;
+    width: 100%;
+    vertical-align: middle;
+    line-height: 20px;
+}
+.bandeauStyle_bouton {
+    border: 0px solid red;
+    position:relative;
+    left: -11px;
+}
+/*Position des noms des styles relatifs aux boutons*/
+.general_blocStyleMusique {
+    position: relative;
+    top: 10px;
+}
+
+/*
+.blocStyleMusiqueAll{ left: 45px;  }
+.blocStyleMusiqueRock{ left: 110px; }
+.blocStyleMusiqueRap{ left: 168px; }
+.blocStyleMusiqueReggae{ left: 217px; }
+.blocStyleMusiquePop{ left: 265px; }
+*/
+
+
+
+/*Positions des boutons de choix des styles*/
+.bouton{
+	display: inline;
+	position: relative; 
+    left: 22px;
+}
+#button {
+  width: 50px;
+  height: 50px;  
+  border-bottom: 2px solid #eee;
+  
+  background-image: -webkit-linear-gradient(top, #999, #d0d0d0 80% );
+  background-image: -moz-linear-gradient(top, #999, #d0d0d0 80% );
+  background-image: -ms-linear-gradient(top, #999, #d0d0d0 80% );
+  background-image: -o-linear-gradient(top, #999, #d0d0d0 80% );
+  background-image: linear-gradient(top, #999, #d0d0d0 80% );
+  
+  -moz-border-radius: 100px;  
+  -webkit-border-radius: 100px;  
+  border-radius: 100px;
+  
+  box-shadow: inset rgba(0,0,0,0.2) 0px 5px 6px ;
+  
+  left: 89%;
+  top: 50%;
+/*  margin-left: 100px;*/
+  margin-top: -20px;
+  position: absolute;
+}
+.butt {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  left: 5px;
+  top: 7px;
+  cursor: pointer;
+  font-family: "Lucida Sans";
+  font-weight: bold;
+  font-size: 15px;
+  color: #888;
+  text-shadow: 0px 1px 0px #fff;
+  text-align: center;
+  padding-top: 3px;
+  /* padding-bottom: -2px; */
+  
+  -moz-border-radius: 100px;  
+  -webkit-border-radius: 100px;  
+  border-radius: 100px;  
+  
+  background-image: -webkit-linear-gradient(top, #eee, #bbb 70%, #9f9f9f 100% );
+  background-image: -moz-linear-gradient(top, #eee, #bbb 70%, #9f9f9f 100% );
+  background-image: -ms-linear-gradient(top, #eee, #bbb 70%, #9f9f9f 100% );
+  background-image: -o-linear-gradient(top, #eee, #bbb 70%, #9f9f9f 100% );
+  background-image: linear-gradient(top, #eee, #bbb 70%, #9f9f9f 100% );
+  
+  background-position: 0 6px;
+  background-color: #eee;
+  background-repeat: no-repeat;
+  
+  -webkit-box-shadow: rgba(0,0,0,.4) 0 3px 6px;  
+  -moz-box-shadow: rgba(0,0,0,.4) 0 3px 6px;  
+  box-shadow: rgba(0,0,0,.4) 0 3px 6px;
+  
+  -webkit-transition: all .1s ease-in;
+  -moz-transition: all .1s ease-in;
+  -ms-transition: all .1s ease-in;
+  -o-transition: all .1s ease-in;
+  transition: all .1s ease-in;
+}
+.butt:hover {
+  background-position: 0 0px;
+  
+  -webkit-box-shadow: rgba(0,0,0,.4) 0 3px 8px;  
+  -moz-box-shadow: rgba(0,0,0,.4) 0 3px 8px;  
+  box-shadow: rgba(0,0,0,.4) 0 3px 8px;
+}
+.butt:active {
+  width: 38px;
+  height: 38px;
+  margin: 1px 0 5px 1px;   
+  border-bottom: 1px solid #fff;
+  font-size: 13px;
+  color: #777;
+
+  -webkit-box-shadow: inset rgba(0,0,0,.5) 0px 5px 10px;
+  -moz-box-shadow: inset rgba(0,0,0,.5) 0px 5px 10px;
+  box-shadow: inset rgba(0,0,0,.5) 0px 5px 10px;
+}
+
+
+
+/* slide ON/OFF pour le choix des styles */
+input[type=checkbox] {
+	visibility: hidden;
+}
+.slideThree {
+		/* border: 1px solid green;  */
+
+
+
+	display: inline-block;
+	width: 80px;
+	height: 26px;
+	background: #333;
+	margin: 20px auto;
+
+	-webkit-border-radius: 50px;
+	-moz-border-radius: 50px;
+	border-radius: 50px;
+	/* position: relative;
+	
+	
+	left: 100px; *//* TLE */
+	
+	-webkit-box-shadow: inset 0px 1px 1px rgba(0,0,0,0.5), 0px 1px 0px rgba(255,255,255,0.2);
+	-moz-box-shadow: inset 0px 1px 1px rgba(0,0,0,0.5), 0px 1px 0px rgba(255,255,255,0.2);
+	box-shadow: inset 0px 1px 1px rgba(0,0,0,0.5), 0px 1px 0px rgba(255,255,255,0.2);
+}
+.slideThree:after {
+	/* border: 1px solid green;  */
+	
+	
+	content: 'OFF';
+	font: 12px/26px Arial, sans-serif;
+	color: #000;
+	position: absolute;
+	right: 10px;
+	z-index: 0;
+	font-weight: bold;
+	text-shadow: 1px 1px 0px rgba(255,255,255,.15);
+}
+.slideThree:before {
+	content: 'ON';
+	font: 12px/26px Arial, sans-serif;
+	color: #00bf00;
+	position: absolute;
+	left: 10px;
+	z-index: 0;
+	font-weight: bold;
+}
+.slideThree label {
+	display: block;
+	/* display: inline; */
+	/* border: 1px solid green;  */
+	
+	
+	
+	width: 34px;
+	height: 20px;
+
+	-webkit-border-radius: 50px;
+	-moz-border-radius: 50px;
+	border-radius: 50px;
+
+	-webkit-transition: all .4s ease;
+	-moz-transition: all .4s ease;
+	-o-transition: all .4s ease;
+	-ms-transition: all .4s ease;
+	transition: all .4s ease;
+	cursor: pointer;
+	position: absolute;
+	top: 3px;
+	left: 3px;
+	z-index: 1;
+
+	-webkit-box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.3);
+	-moz-box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.3);
+	box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.3);
+	background: #fcfff4;
+
+	background: -webkit-linear-gradient(top, #fcfff4 0%, #dfe5d7 40%, #b3bead 100%);
+	background: -moz-linear-gradient(top, #fcfff4 0%, #dfe5d7 40%, #b3bead 100%);
+	background: -o-linear-gradient(top, #fcfff4 0%, #dfe5d7 40%, #b3bead 100%);
+	background: -ms-linear-gradient(top, #fcfff4 0%, #dfe5d7 40%, #b3bead 100%);
+	background: linear-gradient(top, #fcfff4 0%, #dfe5d7 40%, #b3bead 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fcfff4', endColorstr='#b3bead',GradientType=0 );
+}
+.slideThree input[type=checkbox]:checked + label {
+	left: 43px;
+	/* border: 1px solid green;  */
+	
+}
+/* ============================================ FIN Banniere ====================================== */
